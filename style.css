@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+/* .nav-cone {
+  display: flex;
+} */
+
+.logo {
+  align-self: center;
+  max-width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.container {
+  border: 1px solid rgb(44, 44, 44);
+  padding-top: 2rem;
+  margin: 1em auto;
+  width: 65%;
+}
+
+.nav-container {
+  background-color: #181a1b;
+  border-bottom: 0.1em solid rgb(63, 63, 63);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.img-nav {
+  display: flex;
+  margin: 0 1rem;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}
+
+.social {
+  display: flex;
+  /* border: 3px solid pink; */
+}
+
+.socialcode-ul {
+  list-style-type: none;
+  /* border: 1px solid orange; */
+  display: flex;
+}
+
+nav {
+  background-color: #181a1b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.nav-link-ul {
+  /* border: 1px solid red; */
+  height: 100%;
+  display: flex;
+  list-style-type: none;
+  /* margin-top: 0.4em; */
+  /* margin-left: 3em; */
+}
+
+.nav-link {
+  vertical-align: middle;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+nav a:link,
+a:visited {
+  color: rgb(177, 177, 177);
+  font-family: "Rubik", sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+  font-size: 0.9vw;
+}
+
+nav a:hover {
+  color: rgb(235, 235, 235);
+}
+
+.graphic-design {
+  margin-top: 10em;
+}
+
+.section-web-development {
+  display: flex;
+}
+
+.lazeez-panel,
+.al-faisaliyyah-panel {
+  margin: 1em auto;
+  border: 1px solid rgb(63, 63, 63);
+  width: 30%;
+  border-radius: 0.4em;
+  padding: 3px;
+}
+
+.panel p {
+  /* margin: 1em; */
+  display: flex;
+  flex-flow: column;
+}
+
+.gray-bottom {
+  background-color: rgb(44, 44, 44);
+  padding: 2px;
+  border-bottom-left-radius: 0.2em;
+  border-bottom-right-radius: 0.2em;
+}
+
+.section-title {
+  /* background-color: #141414; */
+  font-family: "Bebas Neue";
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 1em;
+}
+
+.panel-info {
+  font-family: "Rubik";
+  text-align: left;
+  padding: 1em;
+}
+
+.panel-info-developed {
+  font-family: "Rubik";
+  text-align: left;
+  padding: 1em;
+  color: rgb(221, 162, 0);
+}
+
+.panel-title {
+  /* border: 1px solid red; */
+  background-color: green;
+  font-family: "Rubik";
+  font-size: 1.7em;
+  text-align: center;
+  padding: 0.3em;
+  border-top-left-radius: 0.2em;
+  border-top-right-radius: 0.2em;
+}
+
+.gray-bottom a,
+a:active,
+a:visited {
+  /* border: 1px solid red; */
+  color: white;
+  font-family: "Rubik";
+  font-size: 1.3em;
+  /* font-weight: bold; */
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.gray-bottom a:hover {
+  color: rgb(0, 212, 0);
+  /* font-weight: 900; */
+}
+
+.panel-link-view {
+  /* border: 1px solid green; */
+  display: inline-block;
+  padding: 1em;
+}
+
+.lazeez-preview {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.github-icon,
+.linkedin-icon,
+.twitter-icon {
+  vertical-align: middle;
+  margin: 0 1rem;
+  max-width: 50%;
+  background-color: white;
+  align-self: center;
+}
+
+.github-icon:hover,
+.linkedin-icon:hover,
+.twitter-icon:hover {
+  vertical-align: middle;
+  margin: 0 1rem;
+  max-width: 50%;
+  background-color: rgb(0, 212, 0);
+  align-self: center;
+}
+
+footer {
+  background-color: #181a1b;
+}
