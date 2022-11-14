@@ -15,6 +15,8 @@ body {
 .logo {
   align-self: center;
   max-width: 100%;
+  /* border: 1px solid orange; */
+  padding-bottom: 0.3rem;
 }
 
 .logo-container {
@@ -44,6 +46,8 @@ body {
   justify-content: center;
   align-items: center;
   /* height: 100%; */
+  /* border: 2px solid orange; */
+  vertical-align: middle;
 }
 
 .social {
@@ -63,16 +67,15 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  /* padding: 1em; */
   width: 65%;
   margin: 0 auto;
 }
 
 .nav-link-ul {
-  /* border: 1px solid red; */
-  height: 100%;
   display: flex;
   list-style-type: none;
+  justify-content: center;
   /* margin-top: 0.4em; */
   /* margin-left: 3em; */
 }
@@ -81,11 +84,14 @@ nav {
   vertical-align: middle;
   padding-right: 2em;
   padding-left: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 .nav-link:hover {
   vertical-align: middle;
   padding-right: 2em;
   padding-left: 2em;
+  background-color: black;
 }
 
 nav a:link,
