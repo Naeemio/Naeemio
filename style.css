@@ -82,6 +82,11 @@ nav {
   padding-right: 2em;
   padding-left: 2em;
 }
+.nav-link:hover {
+  vertical-align: middle;
+  padding-right: 2em;
+  padding-left: 2em;
+}
 
 nav a:link,
 a:visited {
@@ -93,7 +98,7 @@ a:visited {
 }
 
 nav a:hover {
-  color: rgb(235, 235, 235);
+  color: rgb(0, 202, 27);
 }
 
 .graphic-design {
@@ -106,10 +111,10 @@ nav a:hover {
 
 .lazeez-panel,
 .al-faisaliyyah-panel {
-  margin: 1em auto;
-  border: 1px solid rgb(63, 63, 63);
+  margin: 1rem auto;
+  border: 0.1rem solid rgb(63, 63, 63);
   width: 30%;
-  border-radius: 0.4em;
+  border-radius: 0.4rem;
   padding: 3px;
 }
 
@@ -121,7 +126,7 @@ nav a:hover {
 
 .gray-bottom {
   background-color: rgb(44, 44, 44);
-  padding: 2px;
+  padding: 0.3rem;
   border-bottom-left-radius: 0.2em;
   border-bottom-right-radius: 0.2em;
 }
