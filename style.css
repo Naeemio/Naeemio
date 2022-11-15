@@ -11,7 +11,7 @@ body {
     rgb(0, 49, 4) 50%,
     rgb(0, 0, 0) 100%
   );
-  background-repeat:inherit;
+  background-repeat: inherit;
   color: white;
 }
 
@@ -118,7 +118,6 @@ nav a:hover {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
-};
 }
 
 .graphic-design {
@@ -165,7 +164,7 @@ nav a:hover {
   font-size: 2vw;
   font-weight: bold;
   text-align: center;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
 }
 
 .panel-info {
@@ -185,7 +184,7 @@ nav a:hover {
   /* border: 1px solid red; */
   background-color: green;
   font-family: "Rubik";
-  font-size: 1.7em;
+  font-size: 1.7rem;
   text-align: center;
   padding: 0.3em;
   border-top-left-radius: 0.2em;
@@ -253,5 +252,17 @@ footer {
 
 .copyright {
   font-family: "Rubik";
-  letter-spacing: .09rem;
+  letter-spacing: 0.09rem;
+}
+
+.about {
+  font-family: "Rubik";
+  font-size: 1.4rem;
+  border: 1px solid rgb(0, 212, 0);
+  margin: 2rem 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  line-height: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
