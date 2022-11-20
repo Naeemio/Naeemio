@@ -258,7 +258,7 @@ footer {
 .about {
   font-family: "Rubik";
   font-size: 1.4rem;
-  border: 1px solid rgb(0, 212, 0);
+  /* border: 1px solid rgb(0, 212, 0); */
   margin-bottom: 2rem;
   margin-top: 1rem;
   margin-right: 2rem;
@@ -268,4 +268,19 @@ footer {
   line-height: 2rem;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.about-profile {
+  display: flex;
+  margin: 0em 10em;
+}
+
+.profilepic {
+  display: block;
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.about-bg {
+  background-image: url("images/bg2.png");
 }
