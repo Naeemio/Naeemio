@@ -544,11 +544,11 @@ textarea:focus,
   }
 }
 
-@media only screen and (min-width: 401px) and (max-width: 1500px) {
+@media only screen and (min-width: 401px) and (max-width: 1800px) {
   .container {
     border: 0px solid rgb(44, 44, 44);
     padding-top: 2rem;
-    margin-top: 12rem;
+    margin-top: 10rem;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
